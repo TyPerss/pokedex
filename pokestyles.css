@@ -1,0 +1,10 @@
+.fullcontent {
+display:flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+#pokemonImageDiv {
+   width: 200px;
+}
