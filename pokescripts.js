@@ -23,7 +23,6 @@ document.getElementById("submitButton").addEventListener("click", function(event
       .then(function(response) {
          return response.json();
       }).then(function(json) {
-         console.log(json);
          var pokeImage;
          pokeImage = '<img src="' + json.sprites.front_default + '"height = "250"></img>';
          document.getElementById("pokemonImageDiv").innerHTML = pokeImage;
