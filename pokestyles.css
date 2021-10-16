@@ -61,6 +61,7 @@ input#nameInput {
    box-shadow: 0 0 0 2px #000000;
    border-radius: 5px;
    margin-top: 20px;
+   position:relative;
 }
  
 input#nameInput.dropdown {
@@ -69,15 +70,15 @@ input#nameInput.dropdown {
 }
  
 #selector {
-   position: fixed;
    box-shadow: 0 0 0 2px #000000;
    border-bottom-left-radius: 5px;
    border-bottom-right-radius: 5px;
    margin-top: 2px;
    max-height: 150px;
    overflow: auto;
+   position: absolute;
 }
- 
+
 #selector button {
    appearance: none;
    outline: none;
@@ -92,7 +93,7 @@ input#nameInput.dropdown {
    width: 100%;
    text-align: left;
 }
- 
+
 #selector button:hover {
    background-color: #f2f2f2;
 }
